@@ -1,0 +1,88 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0e1217;
+  color: #dfe6e9;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #0e1217, #1a1f27);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease-in-out; /* Hover effect transition */
+}
+
+.app-container:hover {
+  background: linear-gradient(135deg, #1a1f27, #0e1217);
+}
+
+.app-title {
+  color: #ffcc00;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.loading-message, .error-message {
+  color: #ff0033;
+  font-weight: bold;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, #29a19c, #2c3e50);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.user-item:hover {
+  transform: scale(1.03);
+}
+
+.user-info-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #ffcc00;
+}
+
+.user-info {
+  margin: 0;
+  color: #dfe6e9;
+}
+
+.action-button {
+  display: block;
+  margin: 20px auto 0; /* Adjusted margin-top to 20px */
+  padding: 10px 20px;
+  min-width: 190px; /* Minimum width */
+  background: linear-gradient(90deg, #3498db, #6c5ce7);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out; /* Hover effect transition */
+}
+
+.action-button:hover {
+  background: linear-gradient(90deg, #6c5ce7, #3498db);
+}
